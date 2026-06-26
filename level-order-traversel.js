@@ -5,8 +5,8 @@ class Solution {
      */
     levelOrder(root) {
         if(!root) return [];
-        let queue = [root];
-        let result = [];
+        const queue = [root];
+        const result = [];
 
         while (queue.length > 0) {
             let levelSize = queue.length;
