@@ -63,12 +63,7 @@ class Solution {
 /* ─── Quick smoke test ───────────────────────────────────────────────────── */
 // preorder = [3, 9, 20, 15, 7]
 // inorder  = [9, 3, 15, 20, 7]
-// Expected tree:
-//       3
-//      / \
-//     9  20
-//        / \
-//       15   7
+
 
 const s = new Solution();
 const root = s.buildTree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7]);
